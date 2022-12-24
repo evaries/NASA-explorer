@@ -1,6 +1,6 @@
 const http = require("http");
 
-const { loadPlanets } = require("./model/planets.model");
+const { loadPlanets } = require("./models/planets.model");
 
 const app = require("./app");
 

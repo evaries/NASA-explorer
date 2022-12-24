@@ -40,4 +40,8 @@ const loadPlanets = () => {
   });
 };
 
-module.exports = { planets, loadPlanets };
+const getAllPlanets = () => {
+  return planets;
+};
+
+module.exports = { planets, loadPlanets, getAllPlanets };
