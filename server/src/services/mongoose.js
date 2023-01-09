@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
-const MONGO_URL = require("../../config");
+
+const MONGO_URL = process.env.MONGO_URL;
 
 mongoose.connection.once("open", () => {
   console.log("Connected to DB");

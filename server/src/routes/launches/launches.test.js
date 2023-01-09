@@ -1,4 +1,6 @@
 const request = require("supertest");
+require("dotenv").config();
+
 const app = require("../../app");
 const {
   mongooseConnect,
