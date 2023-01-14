@@ -2,6 +2,7 @@ const request = require("supertest");
 require("dotenv").config();
 
 const app = require("../../app");
+const { loadPlanets } = require("../../models/planets.model");
 const {
   mongooseConnect,
   mongooseDisconnect,
@@ -10,6 +11,7 @@ const {
 describe("Test API", () => {
   beforeAll(async () => {
     await mongooseConnect();
+    await loadPlanets();
   });
 
   afterAll(async () => {
