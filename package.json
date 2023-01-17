@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/evaries/NASA-explorer/issues"
   },
-  "homepage": "https://github.com/evaries/NASA-explorer#readme"
+  "homepage": "https://github.com/evaries/NASA-explorer#readme",
+  "dependencies": {
+    "npm": "^9.3.0"
+  }
 }
